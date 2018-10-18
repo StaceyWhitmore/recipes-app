@@ -11,8 +11,8 @@ const Summary = createClass({
       <div className='summary'>
         <h1>{title}</h1>
         <p>
-          <span> {ingredients.length} Ingredients</span>
-          <span {steps.length} Steps></span>
+          <span> {ingredients} Ingredients</span>
+          <span {steps} Steps></span>
        </p>
       </div>
     )
