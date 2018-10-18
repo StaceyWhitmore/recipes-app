@@ -9,7 +9,6 @@ const Summary = createClass({
    (props[propName].length > 20) ?
       new Error(`The title is over 20 characters long!`) :
       null
-
   },
   getDefaultProps() {
     return {
