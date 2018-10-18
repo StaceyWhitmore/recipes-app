@@ -1,8 +1,8 @@
 const Summary = createClass({
   displayName: "Summary",
   propTypes: {
-    ingredients:PropTypes.array,
-    steps: PropTypes.array,
+    ingredients:PropTypes.array.isRequired,
+    steps: PropTypes.array.isRequired,
     title: PropTypes.string
   },
   render() {
