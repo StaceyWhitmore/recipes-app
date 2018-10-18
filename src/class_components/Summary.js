@@ -1,9 +1,16 @@
 const Summary = createClass({
   displayName: "Summary",
   propTypes: {
-    ingredients:PropTypes.number.isRequired,
-    steps: PropTypes.number.isRequired,
+    ingredients:PropTypes.number,
+    steps: PropTypes.number,
     title: PropTypes.string
+  },
+  getDefaultProps() {
+    return {
+      ingredients:0,
+      steps:0,
+      title:"[recipe untitled]"
+    }
   },
   render() {
     const {ingredients, steps, title} = this.props
