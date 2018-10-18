@@ -24,7 +24,7 @@ Summary.propTypes = {
     null
 } //close Summary.PropTypes
 
-Summary.defaults = {
+Summary.defaultProps = {
     ingredients:0,
     steps:0,
     title:"[recipe untitled]"
