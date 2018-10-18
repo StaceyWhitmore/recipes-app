@@ -1,5 +1,10 @@
 const Summary = createClass({
   displayName: "Summary",
+  propTypes: {
+    ingredients:PropTypes.array,
+    steps: PropTypes.array,
+    title: PropTypes.string
+  },
   render() {
     const {ingredients, steps, title} = this.props
     return (
